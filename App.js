@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from 'react'
-import { Text, View } from 'react-native'
-import BaiTapEmoji from './src/Emoji'
+import SocialNetwork from './src/SocialNetwork'
 
 export default class App extends Component {
   render() {
     return (
       <Fragment>
-        <BaiTapEmoji />
+        <SocialNetwork />
       </Fragment>
     )
   }
